@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>perfume</title>
+  <html style="background-color: rgb(249, 241, 232);"></html>
+  <style>
+    body{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 120px;
+    }
+    .container{background-color: whitesmoke;
+               width: 550px;
+               display: flex;
+              height: 450px;}
+
+    img{width: 275px;
+        height: 100%;}
+    
+    h1{text-transform: capitalize;
+      font-family: 'Caveat', cursive;
+      font-family: 'Fraunces', serif;
+      font-family: 'Libre Baskerville', serif;
+      font-family: 'Montserrat', sans-serif;}
+
+    h3{font-family: 'Caveat', cursive;
+        font-family: 'Libre Baskerville', serif;
+        font-family: 'Montserrat', sans-serif;}
+
+    p{font-family: 'Caveat', cursive;
+        font-family: 'Libre Baskerville', serif;
+        font-family: 'Montserrat', sans-serif;
+        font-display: 50px;
+        }
+
+    .data{margin-left: 20px;}
+
+    .price{display: flex;
+            height: 50px;}
+
+    .price h1{margin: 0;
+              color: green;}
+    .price h4{margin: 12px 0px 0px 45px;}
+
+    .click{background-color: rgb(12, 155, 12);
+            color: white;
+            font-size: 15px;
+            padding: 15px 80px 15px 80px;
+            margin-top: 20px;
+            border-radius: 10px;
+            cursor: pointer;}
+
+    
+  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Libre+Baskerville&family=Montserrat&display=swap" rel="stylesheet">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Fraunces:opsz@9..144&family=Libre+Baskerville&family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="perfume"><img src="./images/image-product-desktop.jpg" 
+      alt="perfume image">
+    </div>
+    <div class="data">
+      <h3>Perfume</h3>
+      <h1>gabrielle<br>essence eau<br>de parfum</h1>
+      <p>A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+        Perfumer-Creator for the House of CHANEL.</p>
+        <div class="price">
+          <div>
+            <h1>$149.99</h1>
+          </div>
+          <div>
+            <h4><s>$169.99</s></h4>
+          </div>
+        </div>
+        <button class="click">
+          Add To Cart
+        </button>
+    </div>
+  </div>
+</body>
+</html>
