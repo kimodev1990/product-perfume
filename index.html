@@ -9,13 +9,12 @@
     body{
       display: flex;
       justify-content: center;
-      align-items: center;
-      margin-top: 120px;
     }
-    .container{background-color: whitesmoke;
+    .container{
                width: 550px;
                display: flex;
-              height: 450px;}
+               height: 450px;
+               margin-top: 100px;}
 
     img{width: 275px;
         height: 100%;}
@@ -24,22 +23,26 @@
       font-family: 'Caveat', cursive;
       font-family: 'Fraunces', serif;
       font-family: 'Libre Baskerville', serif;
-      font-family: 'Montserrat', sans-serif;}
+      font-family: 'Montserrat', sans-serif;
+      margin-left: 20px;
+      font-size: 2.1rem;}
 
     h3{font-family: 'Caveat', cursive;
         font-family: 'Libre Baskerville', serif;
-        font-family: 'Montserrat', sans-serif;}
+        font-family: 'Montserrat', sans-serif;
+        margin-left: 20px;}
 
     p{font-family: 'Caveat', cursive;
         font-family: 'Libre Baskerville', serif;
         font-family: 'Montserrat', sans-serif;
         font-display: 50px;
-        }
+        margin-left: 20px;}
 
-    .data{margin-left: 20px;}
+    .data{background-color: white;}
 
     .price{display: flex;
-            height: 50px;}
+            height: 50px;
+            margin-left: 20px;}
 
     .price h1{margin: 0;
               color: green;}
@@ -52,6 +55,24 @@
             margin-top: 20px;
             border-radius: 10px;
             cursor: pointer;}
+
+    button{margin-left: 20px;}
+
+    @media(max-width:560px){
+      .container{flex-direction: column;
+                  width: 400px;
+                  height: 700px;
+                  justify-content: center;
+                  margin-top: 0;
+                 }
+      h1{font-size: 2.5rem;}
+      img{width: 400px;
+          height: 350px;}
+      .perfume{height: 35%;}
+      .click{margin-bottom: 20px;
+              padding: 15px 110px 15px 110px;
+              margin-left: 45px;}
+    }
 
     
   </style>
@@ -70,7 +91,7 @@
     </div>
     <div class="data">
       <h3>Perfume</h3>
-      <h1>gabrielle<br>essence eau<br>de parfum</h1>
+      <h1>gabrielle essence eau de parfum</h1>
       <p>A floral, solar and voluptuous interpretation composed by Olivier Polge, 
         Perfumer-Creator for the House of CHANEL.</p>
         <div class="price">
